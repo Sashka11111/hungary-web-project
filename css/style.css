@@ -1,0 +1,116 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333333; /* Основний текст */
+  text-align: justify;
+  background-color: #e8f9e8; /* Світло-зелений фон */
+}
+
+h2 {
+  color: #388e3c; /* Темно-зелений заголовок */
+  text-align: center;
+}
+
+/* Стилізація навігації */
+nav {
+  padding: 1rem;
+  background-color: #f9fbe7;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  font-weight: bold;
+  color: #388e3c;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  padding: 0.5rem;
+  color: #000000; /* Колір тексту при наведенні */
+  cursor: pointer;
+}
+
+/* Основний контент */
+.main-content {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #388e3c; /* Темно-зелений заголовок */
+}
+
+.section-text {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.cite-style {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+/* Псевдоелементи */
+h2::before {
+  color: #1d3d1e; /*  символ перед заголовком */
+  content: "❖ ";
+}
+
+::selection {
+  color: #ffffff; /* Білий текст при виділенні */
+  background-color: #16321f; /* Темно-зелений фон при виділенні */
+}
+
+.email-link, .phone-link {
+  color: #00796b; /* Темно-зелений для електронної пошти та телефону */
+  text-decoration: none;
+}
+
+.email-link:hover, .phone-link:hover {
+  text-decoration: underline;
+}
+
+/* Футер */
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9fbe7; /* Світло-жовтий фон для футера */
+}
+
+.time-style {
+  display: block;
+  margin-top: 1rem;
+  color: #777777; /* Світло-сірий для часу */
+}
+
+/* Вертикальні розділювачі */
+.divider {
+  height: 2px;
+  margin: 2rem 0;
+  background-color: #dddddd; /* Сірий для розділювачів */
+  border: none;
+}
